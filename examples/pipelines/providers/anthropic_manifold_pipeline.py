@@ -36,7 +36,7 @@ class Pipeline:
 
     def update_headers(self):
         self.headers = {
-            'anthropic-version': '2023-06-01',
+            'anthropic-version': '2024-10-22',
             'content-type': 'application/json',
             'x-api-key': self.valves.ANTHROPIC_API_KEY
         }
